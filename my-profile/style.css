@@ -1,0 +1,100 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
+    background-color: #FFC5C5;
+    color: #575F7D;
+    margin: 0;
+    padding: 48px 0;
+}
+
+h1 {
+    color: #df7861;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-size: 3.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #6B72E1;
+    font-weight: 700;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: black;
+}
+
+.co {
+    width: 700px;
+    margin: 50px auto;
+}
+
+@media (max-width: 960px) {
+    .co {
+      width: 90%;
+    }
+}
+
+@media (max-width: 720px) {
+    .co {
+      width: 90%;
+    }
+}
+
+@media (max-width: 540px) {
+    .co {
+      width: 90%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .co {
+      width: 90%;
+    }
+}
+
+.cardw {
+    background-color: transparent;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 2.5rem;
+    color: #E6E6E6;
+}
+
+.list-inline i:hover {
+    color: black;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
